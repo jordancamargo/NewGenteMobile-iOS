@@ -14,7 +14,6 @@
 		17CD5B0C2C2CDCA3007600A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD5B0B2C2CDCA3007600A6 /* Card.swift */; };
 		17CD5B0E2C2CDD27007600A6 /* CardProdutoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD5B0D2C2CDD27007600A6 /* CardProdutoDetail.swift */; };
 		17CD5B122C2CDD50007600A6 /* CardServicoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD5B112C2CDD50007600A6 /* CardServicoDetail.swift */; };
-		17CD5B242C2CE8FC007600A6 /* Screenshot at Jun 26 21-25-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CD5B232C2CE8FC007600A6 /* Screenshot at Jun 26 21-25-16.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		17CD5B0B2C2CDCA3007600A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		17CD5B0D2C2CDD27007600A6 /* CardProdutoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProdutoDetail.swift; sourceTree = "<group>"; };
 		17CD5B112C2CDD50007600A6 /* CardServicoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardServicoDetail.swift; sourceTree = "<group>"; };
-		17CD5B232C2CE8FC007600A6 /* Screenshot at Jun 26 21-25-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot at Jun 26 21-25-16.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +39,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17C3A5D92C2E3A030020C900 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				17C3A5DC2C2E3A540020C900 /* Features */,
+				17C3A5E12C2E3ADE0020C900 /* Utilities */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		17C3A5DA2C2E3A190020C900 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		17C3A5DC2C2E3A540020C900 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				17C3A5DD2C2E3A680020C900 /* Root */,
+				17C3A5DE2C2E3A740020C900 /* Common */,
+				17C3A5DF2C2E3A840020C900 /* Login */,
+				17C3A5E02C2E3A9A0020C900 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		17C3A5DD2C2E3A680020C900 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		17C3A5DE2C2E3A740020C900 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				17C3A5E42C2ED5B50020C900 /* Models */,
+				17C3A5E52C2ED5BF0020C900 /* Screens */,
+				17C3A5E32C2ED5890020C900 /* Services */,
+				17C3A5E62C2ED5C80020C900 /* ViewModels */,
+				17C3A5E72C2ED5D10020C900 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		17C3A5DF2C2E3A840020C900 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		17C3A5E02C2E3A9A0020C900 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		17C3A5E12C2E3ADE0020C900 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		17C3A5E22C2E3B570020C900 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				17CD5AFD2C2CDBFA007600A6 /* ContentView.swift */,
+				17CD5AFB2C2CDBFA007600A6 /* NewGenteMobile_iOSApp.swift */,
+				17CD5AFF2C2CDBFD007600A6 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		17C3A5E32C2ED5890020C900 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		17C3A5E42C2ED5B50020C900 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17CD5B0B2C2CDCA3007600A6 /* Card.swift */,
+				17CD5B0D2C2CDD27007600A6 /* CardProdutoDetail.swift */,
+				17CD5B112C2CDD50007600A6 /* CardServicoDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17C3A5E52C2ED5BF0020C900 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		17C3A5E62C2ED5C80020C900 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		17C3A5E72C2ED5D10020C900 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		17CD5AEF2C2CDBFA007600A6 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +173,11 @@
 		17CD5AFA2C2CDBFA007600A6 /* NewGenteMobile-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				17CD5B0A2C2CDC87007600A6 /* Models */,
-				17CD5AFB2C2CDBFA007600A6 /* NewGenteMobile_iOSApp.swift */,
-				17CD5AFD2C2CDBFA007600A6 /* ContentView.swift */,
-				17CD5AFF2C2CDBFD007600A6 /* Assets.xcassets */,
-				17CD5B232C2CE8FC007600A6 /* Screenshot at Jun 26 21-25-16.png */,
-				17CD5B012C2CDBFD007600A6 /* NewGenteMobile_iOS.entitlements */,
+				17C3A5D92C2E3A030020C900 /* Code */,
+				17C3A5DA2C2E3A190020C900 /* Config */,
 				17CD5B022C2CDBFD007600A6 /* Preview Content */,
-				17CD5B0D2C2CDD27007600A6 /* CardProdutoDetail.swift */,
-				17CD5B112C2CDD50007600A6 /* CardServicoDetail.swift */,
+				17C3A5E22C2E3B570020C900 /* SupportingFiles */,
+				17CD5B012C2CDBFD007600A6 /* NewGenteMobile_iOS.entitlements */,
 			);
 			path = "NewGenteMobile-iOS";
 			sourceTree = "<group>";
@@ -79,14 +188,6 @@
 				17CD5B032C2CDBFD007600A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		17CD5B0A2C2CDC87007600A6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				17CD5B0B2C2CDCA3007600A6 /* Card.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CD5B042C2CDBFD007600A6 /* Preview Assets.xcassets in Resources */,
-				17CD5B242C2CE8FC007600A6 /* Screenshot at Jun 26 21-25-16.png in Resources */,
 				17CD5B002C2CDBFD007600A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
