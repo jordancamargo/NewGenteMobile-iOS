@@ -39,6 +39,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1743E9092C337A7F00E12B7E /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				1743E9132C337B2C00E12B7E /* Models */,
+				1743E9122C337B2600E12B7E /* Screens */,
+				1743E9112C337B2100E12B7E /* Services */,
+				1743E9102C337B1900E12B7E /* ViewModels */,
+				1743E90F2C337B1200E12B7E /* Views */,
+			);
+			path = Portal;
+			sourceTree = "<group>";
+		};
+		1743E90A2C337AA200E12B7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1743E90B2C337AAF00E12B7E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1743E90C2C337ABB00E12B7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1743E90D2C337AC500E12B7E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1743E90E2C337AD200E12B7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1743E90F2C337B1200E12B7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1743E9102C337B1900E12B7E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1743E9112C337B2100E12B7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1743E9122C337B2600E12B7E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1743E9132C337B2C00E12B7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1743E9142C337B3300E12B7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1743E9152C337B3B00E12B7E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1743E9162C337B4400E12B7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1743E9172C337B4A00E12B7E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1743E9182C337B5000E12B7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		17C3A5D92C2E3A030020C900 /* Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +179,7 @@
 				17C3A5DE2C2E3A740020C900 /* Common */,
 				17C3A5DF2C2E3A840020C900 /* Login */,
 				17C3A5E02C2E3A9A0020C900 /* Home */,
+				1743E9092C337A7F00E12B7E /* Portal */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -88,6 +206,11 @@
 		17C3A5DF2C2E3A840020C900 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				1743E90A2C337AA200E12B7E /* Models */,
+				1743E90B2C337AAF00E12B7E /* Screens */,
+				1743E90C2C337ABB00E12B7E /* Services */,
+				1743E90D2C337AC500E12B7E /* ViewModels */,
+				1743E90E2C337AD200E12B7E /* Views */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -95,6 +218,11 @@
 		17C3A5E02C2E3A9A0020C900 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1743E9182C337B5000E12B7E /* Models */,
+				1743E9172C337B4A00E12B7E /* Screens */,
+				1743E9162C337B4400E12B7E /* Services */,
+				1743E9152C337B3B00E12B7E /* ViewModels */,
+				1743E9142C337B3300E12B7E /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
