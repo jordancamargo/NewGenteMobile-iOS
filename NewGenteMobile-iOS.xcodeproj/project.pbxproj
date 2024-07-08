@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179C801A2C37710C00807468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C80192C37710C00807468 /* AppDelegate.swift */; };
 		17CD5AFC2C2CDBFA007600A6 /* NewGenteMobile_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD5AFB2C2CDBFA007600A6 /* NewGenteMobile_iOSApp.swift */; };
 		17CD5AFE2C2CDBFA007600A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD5AFD2C2CDBFA007600A6 /* ContentView.swift */; };
 		17CD5B002C2CDBFD007600A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CD5AFF2C2CDBFD007600A6 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179C80192C37710C00807468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CD5AF82C2CDBFA007600A6 /* NewGenteMobile-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewGenteMobile-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD5AFB2C2CDBFA007600A6 /* NewGenteMobile_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGenteMobile_iOSApp.swift; sourceTree = "<group>"; };
 		17CD5AFD2C2CDBFA007600A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,35 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		179C80132C376F5500807468 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		179C80142C376F7F00807468 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		179C80152C376FD200807468 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				179C80162C376FEA00807468 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		179C80162C376FEA00807468 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		17C3A5D92C2E3A030020C900 /* Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +261,7 @@
 		17C3A5E12C2E3ADE0020C900 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				179C80142C376F7F00807468 /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -237,8 +269,10 @@
 		17C3A5E22C2E3B570020C900 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				179C80132C376F5500807468 /* Localization */,
 				17CD5AFD2C2CDBFA007600A6 /* ContentView.swift */,
 				17CD5AFB2C2CDBFA007600A6 /* NewGenteMobile_iOSApp.swift */,
+				179C80192C37710C00807468 /* AppDelegate.swift */,
 				17CD5AFF2C2CDBFD007600A6 /* Assets.xcassets */,
 			);
 			path = SupportingFiles;
@@ -303,6 +337,7 @@
 			children = (
 				17C3A5D92C2E3A030020C900 /* Code */,
 				17C3A5DA2C2E3A190020C900 /* Config */,
+				179C80152C376FD200807468 /* Resources */,
 				17CD5B022C2CDBFD007600A6 /* Preview Content */,
 				17C3A5E22C2E3B570020C900 /* SupportingFiles */,
 				17CD5B012C2CDBFD007600A6 /* NewGenteMobile_iOS.entitlements */,
@@ -388,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179C801A2C37710C00807468 /* AppDelegate.swift in Sources */,
 				17CD5AFE2C2CDBFA007600A6 /* ContentView.swift in Sources */,
 				17CD5B122C2CDD50007600A6 /* CardServicoDetail.swift in Sources */,
 				17CD5B0E2C2CDD27007600A6 /* CardProdutoDetail.swift in Sources */,
